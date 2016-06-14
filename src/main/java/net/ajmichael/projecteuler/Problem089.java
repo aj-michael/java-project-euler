@@ -10,10 +10,6 @@ import java.net.URL;
 public class Problem089 {
   private static final URL INPUT_FILE = Resources.getResource("p089_roman.txt");
 
-  public static void main(String[] args) throws IOException {
-    System.out.println(solve());
-  }
-
   public static int solve() throws IOException {
     int totalDifference = 0;
     for (String line : Resources.readLines(INPUT_FILE, Charsets.UTF_8)) {
