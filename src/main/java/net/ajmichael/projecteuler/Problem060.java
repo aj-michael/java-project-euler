@@ -10,9 +10,6 @@ import java.util.Optional;
 import java.util.Set;
 
 public class Problem060 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
 
   public static int solve() {
     Set<Integer> primes = new LinkedHashSet<>(Primes.sieve(90000000));
