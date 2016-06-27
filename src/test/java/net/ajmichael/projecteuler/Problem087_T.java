@@ -9,7 +9,7 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnit4.class)
-public class Problem87_T {
+public class Problem087_T {
 
   @Test
   public void testSolve() throws IOException {

@@ -8,10 +8,6 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Problem080 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   public static long solve() {
     List<Integer> squares = IntStream.range(1, 11)
         .mapToObj(x -> x * x)
