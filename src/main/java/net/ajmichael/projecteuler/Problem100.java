@@ -1,10 +1,6 @@
 package net.ajmichael.projecteuler;
 
 public class Problem100 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   /** Used https://www.alpertron.com.ar/QUAD.HTM to get recurrence. */
   public static long solve() {
     long b = 15;
