@@ -10,10 +10,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class Problem108 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   public static long solve() {
     for (long n = 4; ; n++) {
       int distinctSolutions = 0;
