@@ -9,10 +9,6 @@ public class Problem015 {
     counts.put(0, 1L);
   }
 
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   public static long solve() {
     return getCounts(20, 20);
   }

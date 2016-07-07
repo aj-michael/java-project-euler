@@ -1,10 +1,6 @@
 package net.ajmichael.projecteuler;
 
 public class Problem086 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   private static long gcd(long a, long b) {
     if (b == 0) {
       return a;

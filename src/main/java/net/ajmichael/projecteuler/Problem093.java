@@ -4,10 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Problem093 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   public static long solve() {
     int N = 10;
     int maxLength = 0;

@@ -51,10 +51,6 @@ import static net.ajmichael.projecteuler.Problem084.MonopolyGame.Tile.U1;
 import static net.ajmichael.projecteuler.Problem084.MonopolyGame.Tile.U2;
 
 public class Problem084 {
-  public static void main(String args[]) {
-    System.out.println(solve());
-  }
-
   public static long solve() {
     MonopolyGame game = new MonopolyGame(Arrays.asList(new Dice(4), new Dice(4)));
     Map<Integer, Integer> counter = new HashMap<>();
