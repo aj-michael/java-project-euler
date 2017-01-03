@@ -1,12 +1,11 @@
 package net.ajmichael.util;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.google.common.collect.ImmutableList;
 
 public class Primes {
   private Primes() { }
 
-  public static List<Integer> sieve(int max) {
+  public static ImmutableList<Integer> sieve(int max) {
     boolean[] composite = new boolean[max + 1];
     for (int p = 2; p <= (int) Math.sqrt(max); p++) {
       if (!composite[p]) {
@@ -15,12 +14,12 @@ public class Primes {
         }
       }
     }
-    List<Integer> primes = new ArrayList<>();
+    ImmutableList.Builder<Integer> primes = new ImmutableList.Builder<>();
     for (int p = 2; p < composite.length; p++) {
       if (!composite[p]) {
         primes.add(p);
       }
     }
-    return primes;
+    return primes.build();
   }
 }
