@@ -82,9 +82,6 @@ public class Problem088 {
         }
       }
     }
-    if (!factorizations.containsKey(n)) {
-      System.err.println(n);
-    }
     return factorizations.get(n);
   }
 }

@@ -40,9 +40,6 @@ public class Problem108 {
         }
       }
     }
-    if (!divisors.containsKey(n)) {
-      System.err.println(n);
-    }
     return divisors.get(n);
   }
 }

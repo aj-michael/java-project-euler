@@ -51,9 +51,6 @@ public class Problem134 {
   public static long solve() {
     long total = 0;
     for (int i = 2; i < primes.size() - 1; i++) {
-      if (i % 100 == 0) {
-        System.out.println("i = " + i + " / " + primes.size());
-      }
       long p1 = primes.get(i);
       long p2 = primes.get(i + 1);
       total += minVal(p1, p2);
