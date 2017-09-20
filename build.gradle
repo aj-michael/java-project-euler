@@ -16,6 +16,7 @@ dependencies {
 test {
     testLogging {
         events "failed"
-        exceptionFormat "short"
+        showStackTraces
+        exceptionFormat "full"
     }
 }
